@@ -1,0 +1,113 @@
+[1mdiff --git a/src/test/java/features/login.feature b/src/test/java/features/login.feature[m
+[1mindex 1069d79..dad1ba9 100644[m
+[1m--- a/src/test/java/features/login.feature[m
+[1m+++ b/src/test/java/features/login.feature[m
+[36m@@ -1,22 +1,27 @@[m
+[31m-@Reg[m
+[31m-Feature: Login Functionality[m
+[32m+[m[32m@Reg[m[41m [m
+[32m+[m[32mFeature: Login Functionality[m[41m [m
+ [m
+[31m-  Scenario: Login With Valid Credenatials[m
+[31m-    When user enter "standard_user" and "secret_sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate user logged in sucessfully[m
+[31m-[m
+[31m-  Scenario: Login with invalid credenatials[m
+[31m-    When user enter "vinod" and "secret_sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate login error message[m
+[31m-    [m
+[31m-  Scenario: Login with correct username and invalid password[m
+[31m-    When user enter "standard_user" and "sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate correct username and invalid password[m
+[31m-    [m
+[31m-      Scenario: Login with correct username and blank password[m
+[31m-    When user enter "standard_user" and ""[m
+[31m-    And user click on login button[m
+[31m-    Then Validate correct username and blank password[m
+\ No newline at end of file[m
+[32m+[m[32mScenario: Login With Valid Credenatials[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and "secret_sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate user logged in sucessfully[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with invalid credenatials[m[41m [m
+[32m+[m	[32mWhen user enter "vinod" and "secret_sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate login error message[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with correct username and invalid password[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and "sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and invalid password[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with correct username and blank password[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and ""[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and blank password[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with blank username and blank password[m[41m [m
+[32m+[m	[32mWhen user enter "" and ""[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and blank password[m
+\ No newline at end of file[m
+[1mdiff --git a/target/classes/.cucumber/cucumber.glue.tmp b/target/classes/.cucumber/cucumber.glue.tmp[m
+[1mindex afa7c5b..ef22d21 100644[m
+Binary files a/target/classes/.cucumber/cucumber.glue.tmp and b/target/classes/.cucumber/cucumber.glue.tmp differ
+[1mdiff --git a/target/test-classes/features/login.feature b/target/test-classes/features/login.feature[m
+[1mindex 1069d79..dad1ba9 100644[m
+[1m--- a/target/test-classes/features/login.feature[m
+[1m+++ b/target/test-classes/features/login.feature[m
+[36m@@ -1,22 +1,27 @@[m
+[31m-@Reg[m
+[31m-Feature: Login Functionality[m
+[32m+[m[32m@Reg[m[41m [m
+[32m+[m[32mFeature: Login Functionality[m[41m [m
+ [m
+[31m-  Scenario: Login With Valid Credenatials[m
+[31m-    When user enter "standard_user" and "secret_sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate user logged in sucessfully[m
+[31m-[m
+[31m-  Scenario: Login with invalid credenatials[m
+[31m-    When user enter "vinod" and "secret_sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate login error message[m
+[31m-    [m
+[31m-  Scenario: Login with correct username and invalid password[m
+[31m-    When user enter "standard_user" and "sauce"[m
+[31m-    And user click on login button[m
+[31m-    Then Validate correct username and invalid password[m
+[31m-    [m
+[31m-      Scenario: Login with correct username and blank password[m
+[31m-    When user enter "standard_user" and ""[m
+[31m-    And user click on login button[m
+[31m-    Then Validate correct username and blank password[m
+\ No newline at end of file[m
+[32m+[m[32mScenario: Login With Valid Credenatials[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and "secret_sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate user logged in sucessfully[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with invalid credenatials[m[41m [m
+[32m+[m	[32mWhen user enter "vinod" and "secret_sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate login error message[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with correct username and invalid password[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and "sauce"[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and invalid password[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with correct username and blank password[m[41m [m
+[32m+[m	[32mWhen user enter "standard_user" and ""[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and blank password[m[41m [m
+[32m+[m[41m	[m
+[32m+[m[32mScenario: Login with blank username and blank password[m[41m [m
+[32m+[m	[32mWhen user enter "" and ""[m[41m [m
+[32m+[m	[32mAnd user click on login button[m[41m [m
+[32m+[m	[32mThen Validate correct username and blank password[m
+\ No newline at end of file[m
