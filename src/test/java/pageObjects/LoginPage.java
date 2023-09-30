@@ -42,4 +42,10 @@ public class LoginPage extends Base {
 		WebElement tittle = driver.findElement(By.xpath("//h3[@data-test='error']"));
 		validateText(tittle, "Epic sadface: Password is required");
 	}
+	
+	public void validate_blank_username_and_blank_password() {
+		WebElement tittle = driver.findElement(By.xpath("//h3[@data-test='error']"));
+		validateText(tittle, "Epic sadface: Username is required");
+	}
+
 }

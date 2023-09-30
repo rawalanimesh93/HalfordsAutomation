@@ -25,18 +25,22 @@ public class LoginPageSteps {
 
 	@Then("Validate login error message")
 	public void validate_login_error_message() {
-	  login.validate_login_error_message();
+		login.validate_login_error_message();
 	}
 
 	@Then("Validate correct username and invalid password")
 	public void validate_correct_username_and_invalid_password() {
-	login.validate_correct_username_and_invalid_password();
+		login.validate_correct_username_and_invalid_password();
 	}
 
 	@Then("Validate correct username and blank password")
 	public void validate_correct_username_and_blank_password() {
-	login.validate_correct_username_and_blank_password();
+		login.validate_correct_username_and_blank_password();
 	}
 
-	
+	@Then("Validate blank username and blank password")
+	public void validate_blank_username_and_blank_password() {
+		login.validate_blank_username_and_blank_password();
+	}
+
 }
