@@ -24,4 +24,4 @@ Scenario: Login with correct username and blank password
 Scenario: Login with blank username and blank password 
 	When user enter "" and "" 
 	And user click on login button 
-	
+	Then Validate blank username and blank password
