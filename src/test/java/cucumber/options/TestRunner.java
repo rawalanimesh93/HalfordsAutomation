@@ -8,8 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/java/features",glue={"stepDefination","helper"},tags="@Reg",plugin="json:target/jsonReports/testreport.json")
 
 public class TestRunner {
-
-	//animesh
-	//rawal
-	//automation
+	//1
+	//2
+	//3
 }
